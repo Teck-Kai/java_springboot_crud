@@ -1,7 +1,7 @@
-package com.rhb.service;
+package com.test.service;
 
-import com.rhb.dao.PersonDao;
-import com.rhb.entity.PersonBean;
+import com.test.dao.PersonDao;
+import com.test.entity.PersonBean;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

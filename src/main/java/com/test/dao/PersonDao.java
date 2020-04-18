@@ -1,6 +1,6 @@
-package com.rhb.dao;
+package com.test.dao;
 
-import com.rhb.entity.PersonBean;
+import com.test.entity.PersonBean;
 
 import java.util.List;
 

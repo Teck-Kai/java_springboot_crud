@@ -1,4 +1,4 @@
-package com.rhb;
+package com.test;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;

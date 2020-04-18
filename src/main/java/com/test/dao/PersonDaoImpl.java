@@ -1,6 +1,6 @@
-package com.rhb.dao;
+package com.test.dao;
 
-import com.rhb.entity.PersonBean;
+import com.test.entity.PersonBean;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.springframework.stereotype.Repository;

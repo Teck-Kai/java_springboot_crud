@@ -1,7 +1,7 @@
-package com.rhb.controller;
+package com.test.controller;
 
-import com.rhb.entity.PersonBean;
-import com.rhb.service.PersonService;
+import com.test.entity.PersonBean;
+import com.test.service.PersonService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

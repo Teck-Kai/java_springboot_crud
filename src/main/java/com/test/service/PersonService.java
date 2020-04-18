@@ -1,6 +1,6 @@
-package com.rhb.service;
+package com.test.service;
 
-import com.rhb.entity.PersonBean;
+import com.test.entity.PersonBean;
 
 import java.util.List;
 
