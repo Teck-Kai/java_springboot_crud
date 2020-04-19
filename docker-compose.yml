@@ -1,0 +1,27 @@
+version: '2'
+
+services:
+  mysql-docker-container:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=1234
+      - MYSQL_DATABASE=hello_java
+      - MYSQL_USER=demo_java
+      - MYSQL_PASSWORD=1234
+    volumes:
+      - /data/mysql
+    ports:
+      - 3306:3306
+    container_name: crud-db
+  crud-app:
+    image: crud-image
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - mysql-docker-container
+    ports:
+      - 8080:8080
+    volumes:
+      - /data/spring-boot-app
+    container_name: crud-app
